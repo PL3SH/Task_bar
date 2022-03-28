@@ -1,0 +1,42 @@
+#neon{
+	display: flex;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-size:14px;
+	color:#ccc;
+	background-color:#141414;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#neonText span{
+	width:350px;
+	height:100px;
+	position:fixed;
+	left:0;
+	top:0;
+    background:url('https://r67.cooltext.com/rendered/cooltext407542568838130.png') no-repeat left top;
+	
+}
+span #version1{
+	z-index:100;
+}
+
+span #version2{
+	background-position:left bottom;
+	z-index:100;
+}
+
+
+#neonText{
+	height:150px;
+	margin:-60px auto 0;
+	position:relative;
+	width:650px;
+	text-indent:-9999px;
+}
