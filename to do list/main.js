@@ -53,7 +53,7 @@ function deleteTask(title) {
 getTasks();
 //https://r69.cooltext.com/rendered/cooltext407551317097173.png
 //https://r67.cooltext.com/rendered/cooltext407542568838130.png
-
+//funcion que se encarga de crear ekl efecto neon del titulo
 $(document).ready(function(){
   // Define un método que pueda activar todas las funciones después de cargar la página
     setInterval(function(){
